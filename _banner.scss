@@ -1,0 +1,128 @@
+.banner {
+  max-width: 1920px;
+  background-color: #fafafa;
+  padding: 80px 0px 80px 0px;
+
+  //   作法01
+  //   .topic01 {
+  //     max-width: 670px;
+  //     margin: 0 auto;
+  //     position: relative;
+  //     .dec01 {
+  //       position: absolute;
+  //       top: 0px;
+  //       left: 0px;
+  //     }
+  //     .bothLine {
+  //       position: absolute;
+  //       top: 59px;
+  //       left: 71px;
+
+  //       .line01 {
+  //         max-width: 528px;
+  //         display: flex;
+  //         flex-direction: column;
+  //         justify-content: end;
+  //         align-items: end;
+  //         position: relative;
+  //         p {
+  //           z-index: 1px;
+  //         }
+  //         img {
+  //           position: absolute;
+  //           top: 23px;
+  //           left: 396px;
+  //         }
+  //       }
+  //       .line02 {
+  //         max-width: 480px;
+  //         display: flex;
+  //         flex-direction: column;
+  //         justify-content: end;
+  //         align-items: end;
+  //         position: relative;
+  //         p {
+  //           z-index: 1px;
+  //         }
+  //         img {
+  //           position: absolute;
+  //           top: 23px;
+  //           left: 352px;
+  //         }
+  //       }
+  //     }
+  //     .dec02 {
+  //       position: absolute;
+  //       top: 120px;
+  //       left: 598px;
+  //     }
+  //   }
+
+  // 作法02
+  .topic01 {
+    max-width: 670px;
+    margin: 0 auto;
+    .bothLine {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .line01 {
+        max-width: 528px;
+        display: flex;
+        flex-direction: column;
+
+        position: relative;
+        p {
+          z-index: 1px;
+        }
+        img {
+          position: absolute;
+          top: 23px;
+          left: 396px;
+        }
+      }
+      .line02 {
+        max-width: 480px;
+        display: flex;
+        flex-direction: column;
+
+        position: relative;
+        p {
+          z-index: 1px;
+        }
+        img {
+          position: absolute;
+          top: 23px;
+          left: 352px;
+        }
+      }
+    }
+    .dec02 {
+      display: flex;
+      justify-content: end;
+    }
+  }
+  .topicDown {
+    max-width: 636px;
+    display: flex;
+    margin: 0 auto;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 24px;
+    .topic02,
+    .topic03 {
+      max-width: 298px;
+      gap: 4px;
+
+      h6 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
+}

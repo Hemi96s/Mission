@@ -1,0 +1,22 @@
+header {
+  max-width: 1920px;
+  display: flex;
+  align-items: center;
+  padding: 32px 312px 32px 312px;
+
+  .nav {
+    margin: 0 auto;
+    ul {
+      display: flex;
+      li {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        padding: 4px 8px 4px 8px;
+        &:hover {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
